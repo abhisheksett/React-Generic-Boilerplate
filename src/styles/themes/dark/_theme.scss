@@ -1,0 +1,23 @@
+@import '_palette.scss';
+@import '../../mixins/_mixin_common.scss';
+
+@mixin dark {
+  &.dark {
+    &.app {
+      color: $color-white;
+      background-color: $dark-themed-background;
+    }
+    .button-component {
+      button {
+        background-color: $dark-themed-background;
+        border: 1px solid $color-white;
+        color: $color-white;
+      }
+    }
+    .textbox-component {
+      input {
+        border: 1px solid $color-white;
+      }
+    }
+  }
+}

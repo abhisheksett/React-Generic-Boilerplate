@@ -1,0 +1,7 @@
+@import './themes/dark/_theme.scss';
+@import './themes/light/_theme.scss';
+
+@mixin theme {
+  @include dark;
+  @include light;
+}

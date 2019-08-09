@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "region": "US",
+  "mobile": {},
+  "web": {
+    "version": "1.0",
+    "1.0": {
+      "general": {
+        "theme": "dark",
+        "logo_url": "https://az.com/logo",
+        "server_url": "https://az.com",
+        "font": {
+          "normal": "Comic-Sans",
+          "bold": "Comic-Sans-Bold"
+        }
+      },
+      "login": {
+        "usernameValidationRegex": "\\*/",
+        "passwordValidationRegex": "\\*",
+        "successRoute": "/dashboard",
+        "forgotPasswordRoute": "/forgot-password",
+        "backgroundImageUrl": "https://az.com/background",
+        "endpoints": {
+          "login": "/api/validation/login"
+        }
+      },
+      "dashboard": {}
+    }
+  },
+  "translations": {
+    "en": {
+      "copyrightMessage": "Copyright to AZ",
+      "usernameHintText": "Username",
+      "passwordHinttext": "Password",
+      "loginBtnText": "Login",
+      "forgotPasswordText": "forgot password",
+      "error_messages": {
+        "requiredField": "This field is required",
+        "invalidEmail": "Incorrect email format"
+      },
+      "error_codes": {
+        "err_01_001": "Invalid username/password",
+        "err_01_002": "Email is not registered with AZ"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.textbox-component {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.textbox-component > input {
+  min-height: 40px;
+  font-size: 14px;
+  padding: 5px 20px 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textbox-component > input::-ms-clear,
+.textbox-component > input::-ms-reveal {
+  display: none;
+}
+
+.textbox-component .clear {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: #282c34;
+  margin-right: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.textbox-component .clear > .clear__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  padding: 0 0 2px 1px;
+}
