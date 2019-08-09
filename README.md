@@ -1,4 +1,4 @@
-This is boilerplate project for AZ. Same project skeleton will be replicated for all 3 applications
+This is a generic boilerplate of React application with few major features in place
 
 ## Available Scripts
 
